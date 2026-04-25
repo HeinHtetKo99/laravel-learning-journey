@@ -17,6 +17,8 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\OrderController;
 
+Route::view('/', 'welcome');
+
 //Route::get(URI,closurephp )
 Route::prefix('admin')->group(function () {
     //login page
